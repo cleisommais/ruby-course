@@ -2,4 +2,4 @@
 
 @cleison
 
-    Learning from the basic Ruby language
+    Learning from the basics Ruby language
