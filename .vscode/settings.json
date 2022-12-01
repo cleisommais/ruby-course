@@ -1,0 +1,6 @@
+{
+  "editor.formatOnSave": true,
+  "ruby.codeCompletion": "rcodetools",
+  "ruby.format": "rubyfmt",
+  "ruby.intellisense": "rubyLocate"
+}
