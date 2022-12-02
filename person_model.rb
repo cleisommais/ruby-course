@@ -1,7 +1,7 @@
 class Person
     #method should use snake_case convension
-    def speak
-        puts "I'm speaking!"
+    def speak(text = "I'm speaking")
+        return text
     end
     def walk
         puts "I'm walking!"
@@ -10,6 +10,8 @@ end
 
 person = Person.new 
 
-person.speak
+puts person.speak
+
+puts person.speak("xpto")
 
 person.walk
