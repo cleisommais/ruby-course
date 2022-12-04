@@ -3,6 +3,10 @@ class Person
     #attr_reader to just get the variable
     attr_accessor :name
     attr_accessor :age
+    def initialize(name, age)
+        @name = name
+        @age = age     
+    end
 =begin
     #properties should use snake_case conversion
     @name = nil
@@ -23,12 +27,8 @@ class Person
 =end
 end
 
-person = Person.new 
+person = Person.new("Jose Maria", 18)
 
-person.name = 'Jose Maria'
-person.age = 33
-puts person.name
-puts person.age
 
 
 
