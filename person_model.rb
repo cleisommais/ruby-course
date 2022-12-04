@@ -1,4 +1,9 @@
 class Person
+    #attr_writer to just set the variable
+    #attr_reader to just get the variable
+    attr_accessor :name
+    attr_accessor :age
+=begin
     #properties should use snake_case conversion
     @name = nil
     @age = nil
@@ -15,6 +20,7 @@ class Person
     def age
         @age
     end
+=end
 end
 
 person = Person.new 
