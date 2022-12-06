@@ -11,7 +11,7 @@ class GuessNumber
 
     def start
         print "Starting the game"
-        (0..6).each do
+        6.times do
             sleep 1
             print "."
         end  
