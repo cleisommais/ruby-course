@@ -6,6 +6,16 @@ class GuessNumber
         #get a range of numbers between 0 and 10
         @number = range.rand(0..10)
         @winner = false
+        start
+    end
+
+    def start
+        print "Starting the game"
+        (0..6).each do
+            sleep 1
+            print "."
+        end  
+        puts ""      
     end
 
     def guess(number)
